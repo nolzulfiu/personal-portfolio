@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Header from '../Components/header';
-import Image from 'react-bootstrap/Image';
 import Footer from '../Components/footer';
 
 import Born from '../Photos/Born.jpg';
@@ -43,13 +42,15 @@ function About () {
                             <Header />
                             <div className='section'>
                                 <div className='about-photo-container'>
-                                    <Image src={page.image} className='about-photo' rounded />
+                                    <img src={page.image} className='about-photo' />
                                 </div>
 
-                                <div className='about-text'>
-                                    <h1 className='about-years'>{page.year}</h1>
-                                    <h2>{page.text}</h2>
-                                    <h2>{page.text2}</h2>
+                                <div className='about-container'>
+                                    <div className='about-text'>
+                                        <h1 className='about-years'>{page.year}</h1>
+                                        <h2>{page.text}</h2>
+                                        <h2>{page.text2}</h2>
+                                    </div>
                                 </div>
                             </div>
                         </Carousel.Item>    

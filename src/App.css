@@ -280,19 +280,18 @@ background: #555;
 
 .about-photo-container {
   display: contents;
-  width: 49%;
+  width: 50%;
 }
 
 .about-container {
   border-top: 2.5px solid #e6e6e6;
-  width: 49%;
+  margin-left: 5%;
+  width: 50%;
 }
 
 .about-text {
   float: left;
   text-align: left;
-  border-top: 2.5px solid #e6e6e6;
-  padding-left: 40px;
 }
 
 .about-photo-container img {
