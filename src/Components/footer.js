@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+ import { faGithub } from '@fortawesome/free-brands-svg-icons';
+ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
     <div>
@@ -13,8 +16,14 @@ const Footer = () => (
         <div className='footLine'></div>
     
         <div className="contact-links">
-            <a href="https://github.com/nolzulfiu" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="https://www.linkedin.com/in/nolzulfiu/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            
+            <a href="https://github.com/nolzulfiu" target="_blank" rel="noopener noreferrer" title='GitHub'>
+                <FontAwesomeIcon icon={faGithub} size='lg' className='github' />
+            </a>
+
+            <a href="https://www.linkedin.com/in/nolzulfiu/" target="_blank" rel="noopener noreferrer" title='LinkedIn'>
+                <FontAwesomeIcon icon={faLinkedin} size='lg' className='linkedin' />
+            </a>
         </div>
     </div>
   );
