@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Header from '../Components/header';
 import Footer from '../Components/footer';
+import Image from 'react-bootstrap/Image';
 
 import Born from '../Photos/Born.jpg';
 import Move from '../Photos/Move.jpg';
@@ -42,7 +43,7 @@ function About () {
                             <Header />
                             <div className='section'>
                                 <div className='about-photo-container'>
-                                    <img src={page.image} className='about-photo' />
+                                    <Image src={page.image} className='about-photo' rounded />
                                 </div>
 
                                 <div className='about-container'>

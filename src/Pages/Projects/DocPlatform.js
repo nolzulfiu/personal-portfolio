@@ -1,37 +1,46 @@
 import React from 'react';
+import ProjBottom from '../../Components/projbottom';
 
 function DocPlatform () {
     return(
-        <div className="project-text">
-
-            <p>Platform where you can create papers, save them, and export them as PDF</p>
+        <div>
+            <div className="project-text">
             
-            <h2>Backend:</h2>
+                <h1>DocPlatform</h1>
+                
+                <p className="proj-lang">React, Babel, Bootstrap</p>
 
-            <p><strong>Cross Domain Requests:</strong> CORS</p>
+                <p>Platform where you can create papers, save them, and export them as PDF</p>
+                
+                <h2>Backend:</h2>
 
-            <p><strong>File Upload:</strong> Multer</p>
+                <p><strong>Cross Domain Requests:</strong> CORS</p>
 
-            <p><strong>ORM:</strong> Sequelize</p>
+                <p><strong>File Upload:</strong> Multer</p>
 
-            <p><strong>Database:</strong> SQLite3</p>
+                <p><strong>ORM:</strong> Sequelize</p>
 
-            <div style={{borderBottom: '2.5px solid #ffb000', width: '100%'}}></div>
+                <p><strong>Database:</strong> SQLite3</p>
 
-            <h2>Frontend:</h2>
+                <div style={{borderBottom: '2.5px solid #ffb000', width: '100%'}}></div>
 
-            <p><strong>Framework:</strong> React</p>
+                <h2>Frontend:</h2>
 
-            <p><strong>UI:</strong> Bootstrap</p>
-                        
-            <p><strong>Form Handling Function:</strong> Formik</p>
-                        
-            <p><strong>Text Editor:</strong> CKEditor</p>
+                <p><strong>Framework:</strong> React</p>
+
+                <p><strong>UI:</strong> Bootstrap</p>
+                            
+                <p><strong>Form Handling Function:</strong> Formik</p>
+                            
+                <p><strong>Text Editor:</strong> CKEditor</p>
+                
+                <p><strong>Object Schema Validation:</strong> Yup</p>
+
+                <a href="https://github.com/nolzulfiu/DocPlatform" target="_blank" rel="noopener noreferrer">View on Github</a>
+
+            </div>
             
-            <p><strong>Object Schema Validation:</strong> Yup</p>
-
-            <a href="https://github.com/nolzulfiu/DocPlatform" target="_blank" rel="noopener noreferrer">View on Github</a>
-
+            <ProjBottom />
         </div>
     );
 }

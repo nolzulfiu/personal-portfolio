@@ -5,10 +5,9 @@ import Particles from 'react-particles-js';
 
 function Home () {
 
-
-
     return (
         <div>
+            {/* <img src={HomeTitle} id='my-svg' /> */}
             <p className="decription">Nol Zulfiu</p>
             <Particles
             params={{
