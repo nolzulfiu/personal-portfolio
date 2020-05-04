@@ -127,10 +127,14 @@ background: #555;
 
 .home-button {
   left: 15%;
+  animation-name: flipInX;
+  animation-duration: 1.5s;
 }
 
 .about-button {
   right: 15%;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
 }
 
 .home-button p, .about-button p {
@@ -161,9 +165,11 @@ background: #555;
   width: 100%;
   background-color: black;
 }
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-.decription {
+.description {
   position: absolute;
+  font-family: 'Permanent Marker', cursive;
   font-size: 70px;
   top: 40%;
   left: 25%;
@@ -174,10 +180,9 @@ background: #555;
 
 #my-svg {
   position: absolute;
-  top: 40%;
-  left: 25%;
+  top: 10%;
+  left: 30%;
   right: 25%;
-  text-align: center;
   z-index: 1;
 }
 

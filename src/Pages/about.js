@@ -40,10 +40,9 @@ function About () {
                 {pages.map(page => {
                     return (
                         <Carousel.Item  style={{'height':"753px"}}>
-                            <Header />
                             <div className='section'>
                                 <div className='about-photo-container'>
-                                    <Image src={page.image} className='about-photo' rounded />
+                                    <Image src={page.image} rounded />
                                 </div>
 
                                 <div className='about-container'>
@@ -58,10 +57,10 @@ function About () {
                     );
                 })}
                 <Carousel.Item style={{'height':"753px"}}>
-                    <Header />
                     <Footer />
                 </Carousel.Item>
             </Carousel>
+            <Header />
         </div>
     )
 }
