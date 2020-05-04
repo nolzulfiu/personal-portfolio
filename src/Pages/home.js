@@ -2,14 +2,14 @@ import React from 'react';
 import Footer from '../Components/footer';
 import ProjectList from '../Components/projectList';
 import Particles from 'react-particles-js';
-// import Anime, {anime} from 'react-anime';
-import HomeTitle from '../Photos/HomeTitle.svg';
 import Typed from 'react-typed';
+import { Helmet } from 'react-helmet';
 
 function Home () {
 
     return (
         <div>
+            <Helmet><title>Nol Zulfiu</title></Helmet>
             <Typed
                 strings={['Hello', 'Hi There']}
                 typeSpeed={60}

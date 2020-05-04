@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Header from '../Components/header';
 import Footer from '../Components/footer';
 import Image from 'react-bootstrap/Image';
+import { Helmet } from 'react-helmet';
 
 import Born from '../Photos/Born.jpg';
 import Move from '../Photos/Move.jpg';
@@ -36,6 +37,9 @@ function About () {
 
     return(
         <div>
+            <Helmet>
+                <title>About Me</title>
+            </Helmet>
             <Carousel>
                 {pages.map(page => {
                     return (

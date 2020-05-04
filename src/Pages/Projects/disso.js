@@ -1,12 +1,16 @@
 import React from 'react';
 import ProjBottom from '../../Components/projbottom';
+import { Helmet } from 'react-helmet';
+
+let projName = 'Racial Bias in Risk Assesment Algorithms';
 
 function Disso () {
     return(
         <div>
+            <Helmet><title>{projName}</title></Helmet>
             <div className="project-text">
             
-                <h1>Racial Bias in Risk Assesment Algorithms</h1>
+                <h1>{projName}</h1>
                 
                 <p project-text="proj-lang">R, VBA, SQL</p>
                 

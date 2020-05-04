@@ -1,12 +1,16 @@
 import React from 'react';
 import ProjBottom from '../../Components/projbottom';
+import { Helmet } from 'react-helmet';
+
+let projName = 'Personal Portfolio';
 
 function Website () {
     return(
         <div>
+            <Helmet><title>{projName}</title></Helmet>
             <div className="project-text">
 
-                <h1>Website</h1>
+                <h1>{projName}</h1>
                 
                 <p project-text="proj-language">HTML, CSS, Javascript</p>
 

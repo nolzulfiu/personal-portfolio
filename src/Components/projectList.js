@@ -19,11 +19,13 @@ const ProjectList = () => {
     makeObj('Miscellaneous', 'Various Languages', '', 'miscellaneous'),
     makeObj('DocPlatform', 'React, Babel, Bootstrap', 2020, 'docplatform'),
     makeObj('Job Board', 'React, Node.js', 2020, 'jobboard'),
-    makeObj('This Website', 'React, Bootstrap', 2020, 'website'),
+    makeObj('Personal Portfolio', 'React, Bootstrap', 2020, 'website'),
     makeObj('Racial Bias in Risk Assesment Algorithms', 'R, VBA, SQL', 2018, 'disso'),
-    makeObj('Network Computing Client-Server System', 'Java', 2018, 'networking'),
-    makeObj('Client Reporting Macro', 'Visual C#, VBA', 2017, 'clientreport')
+    makeObj('MultiThreading Client-Server System', 'Java', 2018, 'networking'),
+    makeObj('Client Reporting Program', 'Visual C#, VBA', 2017, 'clientreport')
   ];
+
+  let mainTitle = 'Nol Zulfiu';
 
   return (
     <div>

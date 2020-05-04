@@ -18,10 +18,9 @@ import ClientReport from './Pages/Projects/client-report';
 function App() {
   return (
     <div className="App">
-      <Router>
-      <ScrollToTop />
+      <Router>      
+        <ScrollToTop />
         <Header />
-        
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
