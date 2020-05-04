@@ -18,7 +18,7 @@ const Footer = () => (
         <div className="contact-links">
             
             <a href="https://github.com/nolzulfiu" target="_blank" rel="noopener noreferrer" title='GitHub'>
-                <FontAwesomeIcon icon={faGithub} size='lg' className='github' />
+                <FontAwesomeIcon icon={faGithub} size='lg' className='github' href="https://github.com/nolzulfiu" target="_blank" rel="noopener noreferrer" title='GitHub' />
             </a>
 
             <a href="https://www.linkedin.com/in/nolzulfiu/" target="_blank" rel="noopener noreferrer" title='LinkedIn'>
@@ -27,5 +27,5 @@ const Footer = () => (
         </div>
     </div>
   );
-  
+
 export default Footer;

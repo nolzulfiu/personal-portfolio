@@ -25,8 +25,6 @@ const ProjectList = () => {
     makeObj('Client Reporting Program', 'Visual C#, VBA', 2017, 'clientreport')
   ];
 
-  let mainTitle = 'Nol Zulfiu';
-
   return (
     <div>
       <h1 className="project-head">Projects</h1>
