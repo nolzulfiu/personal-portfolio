@@ -1,9 +1,14 @@
 import React from 'react';
+import ProjBottom from '../../Components/projbottom';
 
 function Miscellaneous () {
     return(
         <div>
             <div className="project-text">
+            
+                <h1>Miscellaneous</h1>
+                
+                <p project-text="proj-lang">Various Languages</p>
                 
                 <h2>Project Euler</h2>
                 
@@ -21,7 +26,9 @@ function Miscellaneous () {
                 
                 <a href="https://github.com/nolzulfiu/Books-API" target="_blank" rel="noopener noreferrer">View on Github</a>
 
-            </div>                
+            </div>
+            
+            <ProjBottom />       
         </div>
     );
 }

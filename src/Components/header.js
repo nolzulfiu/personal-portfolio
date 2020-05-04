@@ -1,12 +1,25 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import LogoLight from '../Photos/logo-light.svg';
+import LogoDark from '../Photos/logo-dark.svg';
 
 function Header () {
 
     return(
         <div style={{zIndex: 999}}>
             <Link className="home-button" to='/'>
-                <strong><p className="home">HOME</p></strong>
+            <img
+                src={LogoLight}
+                onMouseOver={e => (e.currentTarget.src = LogoDark)}
+                onMouseOut={e => (e.currentTarget.src = LogoLight)}
+                style={{
+                    height: '130px',
+                    width: '100px',
+                    marginLeft: '-5px'
+                }}
+            />
+
+                 {/* <strong><p className="home">HOME</p></strong> */}
             </Link>
 
             <Link className="about-button" to='/about'>
