@@ -35,6 +35,8 @@ function About () {
         makeObj(Next, 2020, 'Who knows what the future will hold...')
     ];
 
+    const carouselHeight = '728px';
+
     return(
         <div>
             <Helmet>
@@ -43,7 +45,7 @@ function About () {
             <Carousel>
                 {pages.map(page => {
                     return (
-                        <Carousel.Item  style={{'height':"753px"}}>
+                        <Carousel.Item style={{height: carouselHeight}}>
                             <div className='section'>
                                 <div className='about-photo-container'>
                                     <Image src={page.image} rounded />
@@ -60,7 +62,7 @@ function About () {
                         </Carousel.Item>    
                     );
                 })}
-                <Carousel.Item style={{'height':"753px"}}>
+                <Carousel.Item style={{height: carouselHeight}}>
                     <Footer />
                 </Carousel.Item>
             </Carousel>
