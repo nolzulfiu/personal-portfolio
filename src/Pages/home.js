@@ -10,6 +10,7 @@ function Home () {
     return (
         <div>
             <Helmet><title>Nol Zulfiu</title></Helmet>
+
             <Typed
                 strings={['Hello', 'Hi There']}
                 typeSpeed={60}
@@ -19,9 +20,9 @@ function Home () {
                 className='description'
                 style={{fontFamily: 'Permanent Marker, cursive'}}
             />
-            {/* <img src={HomeTitle} id='my-svg' /> */}
-            {/* <p className="decription">Nol Zulfiu</p> */}
+            
             <Particles
+            style={{minHeight: '700px'}}
             params={{
                 "particles": {
                     "number": {
@@ -40,6 +41,7 @@ function Home () {
                     }
                 }
             }} />
+
             <ProjectList />
             <Footer />
       </div>

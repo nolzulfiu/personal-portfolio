@@ -18,7 +18,7 @@ function Miscellaneous () {
                 
                 <p className="proj-lang">C#</p>
                 
-                <p>Completed various projects on <a href="https://projecteuler.net/">Project Euler</a> like finding the largest product in a 20x20 grid in the same direction (up, down, left, right, or diagonally).</p>
+                <p>Completed various projects on Project Euler like finding the largest product in a 20x20 grid in the same direction (up, down, left, right, or diagonally).</p>
                 
                 <a href="https://github.com/nolzulfiu/Project-Euler" target="_blank" rel="noopener noreferrer">View on Github</a>
                 

@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.min.css';
+// import './App.min.css';
+import './App.css';
 import Header from './Components/header';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './Pages/home';
@@ -17,7 +18,6 @@ import ClientReport from './Pages/Projects/client-report';
 
 function App() {
   return (
-    <div className="App">
       <Router>      
         <ScrollToTop />
         <Header />
@@ -33,7 +33,6 @@ function App() {
           <Route path="/clientreport" exact component={() => <ClientReport />} />
         </Switch>
       </Router>
-    </div>
   );
 }
 

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
-    <div>
+    <div style={{minHeight: '700px'}}>
         <div className="contact">
             <h2>Sound Interesting?</h2>
             <h4 style={{animation: 'pulse', animationDuration: '1.5s', animationIterationCount: 'infinite'}}>
