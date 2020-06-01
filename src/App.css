@@ -47,7 +47,8 @@ a:hover {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
+  background: #000000;
 }
 
 /* Handle */
@@ -178,7 +179,6 @@ a:hover {
 .contact {
   padding-top: 15%;
   padding-bottom: 3%;
-  background-color: #000000;
   width: 90%;
   margin-left: 5%;
   text-align: center;
@@ -218,8 +218,6 @@ a:hover {
   font-size: 50px;
 }
 
-
-
 /************************************************************************** 
                           ABOUT ME SECTION
 **************************************************************************/
@@ -228,8 +226,8 @@ a:hover {
   display: flex;
   position:static;
   padding: 15%;
-  padding-top: 8%;
-  margin-bottom: -20px;
+  padding-top: 10%;
+  padding-bottom: 5%;
   background-color: black;
 }
 
@@ -238,15 +236,18 @@ a:hover {
   width: 50%;
 }
 
-.about-container {
+/* .about-container {
   border-top: 2.5px solid #e6e6e6;
   margin-left: 5%;
   width: 50%;
-}
+} */
 
 .about-text {
   float: left;
   text-align: left;
+  border-top: 2.5px solid #e6e6e6;
+  margin-left: 5%;
+  width: 50%;
 }
 
 .about-photo-container img {

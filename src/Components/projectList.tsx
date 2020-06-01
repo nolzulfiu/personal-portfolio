@@ -5,7 +5,7 @@ const ProjectList = () => {
 
   let i = 0;
 
-  function makeObj(title, language, year, page, ind = i++) {
+  function makeObj(title : any, language : string, year : any, page : string, ind = i++) {
     return {
       title,
       language,

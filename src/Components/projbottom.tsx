@@ -6,7 +6,7 @@ const projects = ['/miscellaneous', '/docplatform', '/jobboard', '/website', '/d
 
 const ProjBottom = () => {
 
-        let findInd = (val) => (val === window.location.pathname) ? val : null;
+        let findInd = (val : any) => (val === window.location.pathname) ? val : null;
 
         function nextProject () {
             

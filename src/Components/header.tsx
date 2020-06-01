@@ -12,11 +12,6 @@ function Header () {
                     src={LogoLight}
                     onMouseOver={e => (e.currentTarget.src = LogoDark)}
                     onMouseOut={e => (e.currentTarget.src = LogoLight)}
-                    // style={{
-                    //     height: '130px',
-                    //     width: '100px',
-                    //     marginLeft: '-5px'
-                    // }}
                 />
             </Link>
 

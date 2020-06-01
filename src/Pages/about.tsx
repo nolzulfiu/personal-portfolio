@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import Header from '../Components/header';
 import Footer from '../Components/footer';
@@ -13,10 +13,29 @@ import Uni from '../Photos/Uni-grad.jpg';
 import Noli from '../Photos/Noli.jpg';
 import Next from '../Photos/Next.jpg';
 
+//import Swiper from 'react-id-swiper';
 
 function About () {
+    // const params = {
+    //     direction: 'horizontal',
+    //     slidesPerView: 1,
+    //     spaceBetween: 30,
+    //     mousewheel: true,
+    //     loop: true,
+    //     effect: 'fade',
+    //     autoHeight: true,
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //         dynamicBullets: true
+    //       },
+    //       navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //       }
+    //   }
 
-    function makeObj(image, year, text, text2 = '') {
+    function makeObj(image : any, year : any, text : string, text2 = '') {
         return {
             image,
             year,
@@ -36,6 +55,38 @@ function About () {
     ];
 
     const carouselHeight = '728px';
+
+    // return(
+    //     <div>
+    //         <Helmet>
+    //             <title>About Me</title>
+    //         </Helmet>
+    //         <Swiper {...params}>
+    //             {pages.map(page => {
+    //                 return (
+    //                     <div>
+    //                         <Header />
+    //                         <div className='section'>
+    //                             <div className='about-photo-container'>
+    //                                 <Image src={page.image} rounded />
+    //                             </div>
+
+    //                             <div className='about-text'>
+    //                                 <h1 className='about-years'>{page.year}</h1>
+    //                                 <h2>{page.text}</h2>
+    //                                 <h2>{page.text2}</h2>
+    //                             </div>
+    //                         </div>
+    //                     </div>
+    //                 );
+    //             })}
+    //             <div>
+    //                 <Header />
+    //                 <Footer style={{paddingBottom: '0'}} />
+    //             </div>
+    //         </Swiper>
+    //     </div>
+    // );
 
     return(
         <div>
@@ -68,7 +119,7 @@ function About () {
             </Carousel>
             <Header />
         </div>
-    )
+    );
 }
 
 export default About;
