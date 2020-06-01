@@ -16,9 +16,11 @@ function Website () {
 
                 <div className='proj-divider'></div>
                 
-                <h2>Libraries used:</h2>
+                <h2>Tools used:</h2>
 
                 <p><strong>React:</strong> Frontend Framework</p>
+                
+                <p><strong>Typescript:</strong> Framework</p>
                 
                 <p><strong>react-bootstrap:</strong> Use Accordion, Carousel</p>
                 

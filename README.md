@@ -12,9 +12,13 @@ Run the app
 npm start
 ```
 
-## Libraries used:
+## Tools used:
 
 **React:** Frontend Framework
+
+
+**Typescript**
+
 
 **react-bootstrap:** Use Accordion, Carousel
 
